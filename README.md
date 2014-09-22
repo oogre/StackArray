@@ -103,8 +103,7 @@ const String msg = "Happy Hacking!";
 StackArray <char> stack;
 
 // startup point entry (runs once).
-void
-setup () {
+void setup () {
   // start serial communication.
   Serial.begin (9600);
 
@@ -130,19 +129,15 @@ setup () {
 }
 
 // loop the main sketch.
-void
-loop () {
+void loop () {
   // nothing here.
-}
-
-void loop(){
-
 }
 ```
 
 
 
 <h4>Swapping numbers by using a generic, dynamic stack data structure.<h4>
+
 ```C++
 /*
  *  Swapping numbers by using a generic, dynamic stack data structure.
@@ -184,8 +179,7 @@ setup () {
 }
 
 // loop the main sketch.
-void
-loop () {
+void loop () {
   // print the values of the numbers.
   Serial.print ("a: "); Serial.println (a);
   Serial.print ("b: "); Serial.println (b);
@@ -200,10 +194,6 @@ loop () {
 
   // delay 1 second.
   delay (1000);
-}
-
-void loop(){
-
 }
 ```
 
@@ -240,12 +230,11 @@ const String msg = "Happy Hacking!";
 StackArray <char> stack;
 
 // startup point entry (runs once).
-void
-setup () {
+void setup () {
   // start serial communication.
   Serial.begin (9600);
 
-delay(2000);
+  delay(2000);
 
   // set the printer of the stack.
   stack.setPrinter (Serial);
@@ -269,7 +258,7 @@ delay(2000);
 }
 
 void loop(){
-
+  // nothing here.
 }
 ```
 
