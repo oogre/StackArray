@@ -136,7 +136,7 @@ void loop () {
 
 
 
-<h4>Swapping numbers by using a generic, dynamic stack data structure.<h4>
+<h4>Swapping numbers by using a generic, dynamic stack data structure.</h4>
 
 ```C++
 /*
