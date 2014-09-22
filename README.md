@@ -73,7 +73,7 @@ Sets the printer of the stack.
 <h2>Examples</h2>
 <h4>Reverse a string by using a generic, dynamic stack data structure.</h4>
 
-<code>
+```C++
 /*
  *  Reverse a string by using a generic, dynamic stack data structure.
  *
@@ -134,12 +134,16 @@ void
 loop () {
   // nothing here.
 }
-</code>
+
+void loop(){
+
+}
+```
 
 
 
 <h4>Swapping numbers by using a generic, dynamic stack data structure.<h4>
-<code>
+```C++
 /*
  *  Swapping numbers by using a generic, dynamic stack data structure.
  *
@@ -197,12 +201,16 @@ loop () {
   // delay 1 second.
   delay (1000);
 }
-</code>
+
+void loop(){
+
+}
+```
 
 
 <h4>Store a string by using a generic, dynamic stack data structure.</h4>
 
-<code>
+```C++
 /*
  *  Store a string by using a generic, dynamic stack data structure.
  *
@@ -263,7 +271,7 @@ delay(2000);
 void loop(){
 
 }
-</code>
+```
 
 
 
