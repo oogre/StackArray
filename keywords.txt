@@ -20,4 +20,4 @@ peek	KEYWORD2
 isEmpty	KEYWORD2
 isFull	KEYWORD2
 count	KEYWORD2
-setPrinter      KEYWORD2
+setPrinter	KEYWORD2
